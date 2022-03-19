@@ -17,5 +17,6 @@ struct FontsManager {
         static let thinItalic = "Montserrat-ThinItalic"
         static let semiBold = "Montserrat-SemiBold"
         static let semiboldItalic = "Montserrat-SemiBoldItalic"
+        static let black = "Montserrat-Black"
     }
 }

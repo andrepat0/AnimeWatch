@@ -8,24 +8,26 @@
 import Foundation
 
 //ObservableObject permette al protocollo di restare in ascolto per cambiamenti
-protocol PopularAnimeViewModel: ObservableObject {
-    func getPopularAnime() async
+protocol DiscoverViewModel: ObservableObject {
+    func getAnimeList() async
 }
 
 @MainActor
-final class PopularAnimeViewModelImpl: PopularAnimeViewModel {
+final class DiscoverViewModelImpl: AnimeListViewModel {
     //La variabile Published dice ad ogni view che la contiene e che la sta ascoltando (tramite StateObject) che il valore al suo interno è cambiato e quindi dovrebbe ricostruire le View
-    @Published private(set) var popularAnimes: [Anime] = []
+    @Published private(set) var discoverAnimeLists: [AnimeDiscover] = []
+    //[AnimeDiscover] = []
     
-    private let service: PopularAnimeService
+    private let service: aniApiService
     
-    init(service: PopularAnimeService){
+    init(service: aniApiService){
         self.service = service
     }
     
-    func getPopularAnime() async {
+    func getAnimeList() async {
         do {
-            popularAnimes.self =  try await service.fetchPopularAnime().data
+            discoverAnimeLists.self =  try await service.fetchData().data
+            print(discoverAnimeLists)
         } catch {
             print(error)
         }

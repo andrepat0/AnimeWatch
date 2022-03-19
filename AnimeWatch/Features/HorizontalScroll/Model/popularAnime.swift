@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PopularAnime: Decodable {
+struct popularAnime: Decodable {
     let data: [Anime]
 }
 

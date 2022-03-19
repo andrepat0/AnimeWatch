@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     let popularAnime = PopularAnimeScreen()
+    let reccomendationsAnime = DiscoverScreen()
     var body: some View {
-        popularAnime
+        VStack {
+            popularAnime
+            reccomendationsAnime
+        }
     }
 }
 

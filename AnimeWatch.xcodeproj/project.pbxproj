@@ -31,10 +31,8 @@
 		AA01EE0F27DFE67E009E54F0 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA01EDFD27DFE67E009E54F0 /* Montserrat-Thin.ttf */; };
 		AA01EE1027DFE67E009E54F0 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA01EDFE27DFE67E009E54F0 /* Montserrat-ThinItalic.ttf */; };
 		AA01EE1127DFE67E009E54F0 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA01EDFF27DFE67E009E54F0 /* Montserrat-ExtraBoldItalic.ttf */; };
-		AA01EE1527DFEC8B009E54F0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE1427DFEC8B009E54F0 /* Card.swift */; };
 		AA01EE1827E127BC009E54F0 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE1727E127BC009E54F0 /* Fonts.swift */; };
 		AA01EE1E27E3CD1D009E54F0 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE1D27E3CD1C009E54F0 /* APIConstants.swift */; };
-		AA01EE2327E3CEC6009E54F0 /* popularAnime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE2227E3CEC6009E54F0 /* popularAnime.swift */; };
 		AA01EE2627E3D07F009E54F0 /* PopularAnimeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE2527E3D07F009E54F0 /* PopularAnimeScreen.swift */; };
 		AA01EE2927E3D52D009E54F0 /* popularAnimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE2827E3D52D009E54F0 /* popularAnimeService.swift */; };
 		AA01EE2C27E3D79A009E54F0 /* popularAnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE2B27E3D79A009E54F0 /* popularAnimeViewModel.swift */; };
@@ -42,6 +40,13 @@
 		AA01EE3327E3F4C6009E54F0 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE3027E3F4C6009E54F0 /* ImageLoader.swift */; };
 		AA01EE3427E3F4C6009E54F0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE3127E3F4C6009E54F0 /* ImageCache.swift */; };
 		AA01EE3727E3F4E2009E54F0 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE3627E3F4E2009E54F0 /* EnvironmentValues+ImageCache.swift */; };
+		AA01EE4127E5D793009E54F0 /* discoverAnimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE4027E5D793009E54F0 /* discoverAnimeService.swift */; };
+		AA01EE4327E5D8DC009E54F0 /* discoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE4227E5D8DC009E54F0 /* discoverViewModel.swift */; };
+		AA01EE4527E5D9D7009E54F0 /* popularAnime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE4427E5D9D7009E54F0 /* popularAnime.swift */; };
+		AA01EE4727E5D9F9009E54F0 /* discoverAnime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE4627E5D9F9009E54F0 /* discoverAnime.swift */; };
+		AA01EE4927E5F2E3009E54F0 /* DiscoverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE4827E5F2E3009E54F0 /* DiscoverCard.swift */; };
+		AA01EE4B27E5F319009E54F0 /* PopularCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE4A27E5F319009E54F0 /* PopularCard.swift */; };
+		AA01EE4D27E5FB82009E54F0 /* DiscoverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE4C27E5FB82009E54F0 /* DiscoverScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,10 +76,8 @@
 		AA01EDFE27DFE67E009E54F0 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
 		AA01EDFF27DFE67E009E54F0 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		AA01EE1227DFE7C6009E54F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		AA01EE1427DFEC8B009E54F0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		AA01EE1727E127BC009E54F0 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		AA01EE1D27E3CD1C009E54F0 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
-		AA01EE2227E3CEC6009E54F0 /* popularAnime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularAnime.swift; sourceTree = "<group>"; };
 		AA01EE2527E3D07F009E54F0 /* PopularAnimeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularAnimeScreen.swift; sourceTree = "<group>"; };
 		AA01EE2827E3D52D009E54F0 /* popularAnimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularAnimeService.swift; sourceTree = "<group>"; };
 		AA01EE2B27E3D79A009E54F0 /* popularAnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularAnimeViewModel.swift; sourceTree = "<group>"; };
@@ -82,6 +85,13 @@
 		AA01EE3027E3F4C6009E54F0 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		AA01EE3127E3F4C6009E54F0 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		AA01EE3627E3F4E2009E54F0 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
+		AA01EE4027E5D793009E54F0 /* discoverAnimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverAnimeService.swift; sourceTree = "<group>"; };
+		AA01EE4227E5D8DC009E54F0 /* discoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverViewModel.swift; sourceTree = "<group>"; };
+		AA01EE4427E5D9D7009E54F0 /* popularAnime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularAnime.swift; sourceTree = "<group>"; };
+		AA01EE4627E5D9F9009E54F0 /* discoverAnime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverAnime.swift; sourceTree = "<group>"; };
+		AA01EE4827E5F2E3009E54F0 /* DiscoverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCard.swift; sourceTree = "<group>"; };
+		AA01EE4A27E5F319009E54F0 /* PopularCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCard.swift; sourceTree = "<group>"; };
+		AA01EE4C27E5FB82009E54F0 /* DiscoverScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +167,8 @@
 		AA01EE1327DFEC5F009E54F0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AA01EE1427DFEC8B009E54F0 /* Card.swift */,
+				AA01EE4A27E5F319009E54F0 /* PopularCard.swift */,
+				AA01EE4827E5F2E3009E54F0 /* DiscoverCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,20 +190,11 @@
 			path = Features;
 			sourceTree = "<group>";
 		};
-		AA01EE2027E3CE39009E54F0 /* PopularAnime */ = {
-			isa = PBXGroup;
-			children = (
-				AA01EE2A27E3D772009E54F0 /* ViewModel */,
-				AA01EE2727E3D514009E54F0 /* Service */,
-				AA01EE2427E3D059009E54F0 /* Screen */,
-			);
-			path = PopularAnime;
-			sourceTree = "<group>";
-		};
 		AA01EE2127E3CE6D009E54F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AA01EE2227E3CEC6009E54F0 /* popularAnime.swift */,
+				AA01EE4427E5D9D7009E54F0 /* popularAnime.swift */,
+				AA01EE4627E5D9F9009E54F0 /* discoverAnime.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				AA01EE2527E3D07F009E54F0 /* PopularAnimeScreen.swift */,
+				AA01EE4C27E5FB82009E54F0 /* DiscoverScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				AA01EE2827E3D52D009E54F0 /* popularAnimeService.swift */,
+				AA01EE4027E5D793009E54F0 /* discoverAnimeService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -217,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				AA01EE2B27E3D79A009E54F0 /* popularAnimeViewModel.swift */,
+				AA01EE4227E5D8DC009E54F0 /* discoverViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -235,9 +240,11 @@
 		AA01EE3827E5BDBB009E54F0 /* HorizontalScroll */ = {
 			isa = PBXGroup;
 			children = (
-				AA01EE2027E3CE39009E54F0 /* PopularAnime */,
+				AA01EE2427E3D059009E54F0 /* Screen */,
+				AA01EE2A27E3D772009E54F0 /* ViewModel */,
 				AA01EE1327DFEC5F009E54F0 /* Views */,
 				AA01EE2127E3CE6D009E54F0 /* Model */,
+				AA01EE2727E3D514009E54F0 /* Service */,
 			);
 			path = HorizontalScroll;
 			sourceTree = "<group>";
@@ -333,16 +340,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA01EE2F27E3F4B9009E54F0 /* AsyncImage.swift in Sources */,
-				AA01EE2327E3CEC6009E54F0 /* popularAnime.swift in Sources */,
+				AA01EE4927E5F2E3009E54F0 /* DiscoverCard.swift in Sources */,
 				AA01EE3727E3F4E2009E54F0 /* EnvironmentValues+ImageCache.swift in Sources */,
 				AA01EE2C27E3D79A009E54F0 /* popularAnimeViewModel.swift in Sources */,
 				AA01EE1827E127BC009E54F0 /* Fonts.swift in Sources */,
 				AA01EE2927E3D52D009E54F0 /* popularAnimeService.swift in Sources */,
 				AA01EE3327E3F4C6009E54F0 /* ImageLoader.swift in Sources */,
+				AA01EE4527E5D9D7009E54F0 /* popularAnime.swift in Sources */,
 				AA01EE3427E3F4C6009E54F0 /* ImageCache.swift in Sources */,
 				AA01EDDA27DFDE4F009E54F0 /* ContentView.swift in Sources */,
+				AA01EE4127E5D793009E54F0 /* discoverAnimeService.swift in Sources */,
+				AA01EE4D27E5FB82009E54F0 /* DiscoverScreen.swift in Sources */,
+				AA01EE4B27E5F319009E54F0 /* PopularCard.swift in Sources */,
 				AA01EE1E27E3CD1D009E54F0 /* APIConstants.swift in Sources */,
-				AA01EE1527DFEC8B009E54F0 /* Card.swift in Sources */,
+				AA01EE4727E5D9F9009E54F0 /* discoverAnime.swift in Sources */,
+				AA01EE4327E5D8DC009E54F0 /* discoverViewModel.swift in Sources */,
 				AA01EDD827DFDE4F009E54F0 /* AnimeWatchApp.swift in Sources */,
 				AA01EE2627E3D07F009E54F0 /* PopularAnimeScreen.swift in Sources */,
 			);

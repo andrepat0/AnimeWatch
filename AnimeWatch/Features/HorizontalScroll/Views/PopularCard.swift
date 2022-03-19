@@ -9,7 +9,7 @@ import Foundation
 
 import SwiftUI
 
-struct CardView: View {
+struct PopularCardView: View {
     var data: Anime;
     
     init(item: Anime){
@@ -27,7 +27,7 @@ struct CardView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 25, height: 20)
-                        Text("\(String(format:"%.2f",data.score))").font(.custom(FontsManager.Luckiest_Guy.regular, size: 15)).foregroundColor(.white)
+                        Text("\(String(format:"%.2f",data.score*10))").font(.custom(FontsManager.Luckiest_Guy.regular, size: 15)).foregroundColor(.white)
                         
                     }.frame(width: 51, height: 46)
                         .background(Color("darkGray"))
