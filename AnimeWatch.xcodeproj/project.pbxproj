@@ -16,7 +16,6 @@
 		AA01EE0027DFE67E009E54F0 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA01EDEE27DFE67D009E54F0 /* Montserrat-SemiBoldItalic.ttf */; };
 		AA01EE0127DFE67E009E54F0 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA01EDEF27DFE67D009E54F0 /* Montserrat-Regular.ttf */; };
 		AA01EE0227DFE67E009E54F0 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA01EDF027DFE67D009E54F0 /* Montserrat-BoldItalic.ttf */; };
-		AA01EE0327DFE67E009E54F0 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA01EDF127DFE67D009E54F0 /* Montserrat-Bold.ttf */; };
 		AA01EE0427DFE67E009E54F0 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA01EDF227DFE67D009E54F0 /* Montserrat-Light.ttf */; };
 		AA01EE0527DFE67E009E54F0 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA01EDF327DFE67D009E54F0 /* Montserrat-ExtraLightItalic.ttf */; };
 		AA01EE0627DFE67E009E54F0 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA01EDF427DFE67D009E54F0 /* Montserrat-Italic.ttf */; };
@@ -47,9 +46,34 @@
 		AA01EE4927E5F2E3009E54F0 /* DiscoverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE4827E5F2E3009E54F0 /* DiscoverCard.swift */; };
 		AA01EE4B27E5F319009E54F0 /* PopularCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE4A27E5F319009E54F0 /* PopularCard.swift */; };
 		AA01EE4D27E5FB82009E54F0 /* DiscoverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01EE4C27E5FB82009E54F0 /* DiscoverScreen.swift */; };
+		AA27944B2824724C0099340B /* animeByMalId.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA27944A2824724C0099340B /* animeByMalId.swift */; };
+		AA27944D282472570099340B /* animeById.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA27944C282472570099340B /* animeById.swift */; };
+		AA2794532826707B0099340B /* getAnimeByMalJikan.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2794522826707B0099340B /* getAnimeByMalJikan.swift */; };
+		AA279455282670D20099340B /* getAnimeByMalJikanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA279454282670D20099340B /* getAnimeByMalJikanViewModel.swift */; };
+		AA279458282675530099340B /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA279457282675530099340B /* VideoView.swift */; };
+		AA52CEA927F9A76F00A56A02 /* ReverseProxyServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52CEA827F9A76F00A56A02 /* ReverseProxyServer.swift */; };
+		AA52CEAF27F9C09B00A56A02 /* EpisodesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52CEAE27F9C09B00A56A02 /* EpisodesList.swift */; };
+		AA52CEB627F9C10C00A56A02 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52CEB527F9C10C00A56A02 /* Episode.swift */; };
+		AA52CEB827F9C1A600A56A02 /* EpisodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52CEB727F9C1A600A56A02 /* EpisodeService.swift */; };
+		AA52CEBA27F9C32B00A56A02 /* EpisodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52CEB927F9C32B00A56A02 /* EpisodeViewModel.swift */; };
+		AA52CEC72801E89500A56A02 /* VideoPlayerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52CEC62801E89500A56A02 /* VideoPlayerVM.swift */; };
+		AA52CEC92801E8BF00A56A02 /* VideoPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52CEC82801E8BF00A56A02 /* VideoPlayerModel.swift */; };
+		AAAC8D43281474D0000B10F3 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC8D42281474D0000B10F3 /* Video.swift */; };
+		AAAC8D4528159759000B10F3 /* getAnimeByMalId.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC8D4428159759000B10F3 /* getAnimeByMalId.swift */; };
+		AAAC8D47281597F2000B10F3 /* getAnimeByMalIdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC8D46281597F2000B10F3 /* getAnimeByMalIdModel.swift */; };
+		AAAC8D4C2815B801000B10F3 /* AnimeDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC8D4B2815B801000B10F3 /* AnimeDetailScreen.swift */; };
+		AAAC8D522816B2E5000B10F3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAAC8D512816B2E5000B10F3 /* Montserrat-Bold.ttf */; };
+		AAAC8D552816F9B3000B10F3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC8D542816F9B3000B10F3 /* HomeScreen.swift */; };
+		AAAC8D60281EBB26000B10F3 /* getAnimeById.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC8D5F281EBB26000B10F3 /* getAnimeById.swift */; };
+		AAAC8D62281EC025000B10F3 /* getAnimeByIdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC8D61281EC025000B10F3 /* getAnimeByIdViewModel.swift */; };
+		AAAC8D64282318C1000B10F3 /* RelatedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC8D63282318C1000B10F3 /* RelatedCard.swift */; };
+		AAC570F02813F500009DBEFA /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC570EF2813F500009DBEFA /* VideoPlayer.swift */; };
+		FD546B7374F6B4D5DF19595B /* libPods-AnimeWatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EFC681E8DFF7DFCD4C743A /* libPods-AnimeWatch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28EFC681E8DFF7DFCD4C743A /* libPods-AnimeWatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimeWatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A74134A56D42C9BCB6E2667 /* Pods-AnimeWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeWatch.release.xcconfig"; path = "Target Support Files/Pods-AnimeWatch/Pods-AnimeWatch.release.xcconfig"; sourceTree = "<group>"; };
 		AA01EDD427DFDE4F009E54F0 /* Anime Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA01EDD727DFDE4F009E54F0 /* AnimeWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeWatchApp.swift; sourceTree = "<group>"; };
 		AA01EDD927DFDE4F009E54F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +84,6 @@
 		AA01EDEE27DFE67D009E54F0 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		AA01EDEF27DFE67D009E54F0 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		AA01EDF027DFE67D009E54F0 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
-		AA01EDF127DFE67D009E54F0 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		AA01EDF227DFE67D009E54F0 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		AA01EDF327DFE67D009E54F0 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		AA01EDF427DFE67D009E54F0 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
@@ -75,7 +98,7 @@
 		AA01EDFD27DFE67E009E54F0 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
 		AA01EDFE27DFE67E009E54F0 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
 		AA01EDFF27DFE67E009E54F0 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		AA01EE1227DFE7C6009E54F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AA01EE1227DFE7C6009E54F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA01EE1727E127BC009E54F0 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		AA01EE1D27E3CD1C009E54F0 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		AA01EE2527E3D07F009E54F0 /* PopularAnimeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularAnimeScreen.swift; sourceTree = "<group>"; };
@@ -92,6 +115,29 @@
 		AA01EE4827E5F2E3009E54F0 /* DiscoverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCard.swift; sourceTree = "<group>"; };
 		AA01EE4A27E5F319009E54F0 /* PopularCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCard.swift; sourceTree = "<group>"; };
 		AA01EE4C27E5FB82009E54F0 /* DiscoverScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverScreen.swift; sourceTree = "<group>"; };
+		AA27944A2824724C0099340B /* animeByMalId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animeByMalId.swift; sourceTree = "<group>"; };
+		AA27944C282472570099340B /* animeById.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animeById.swift; sourceTree = "<group>"; };
+		AA2794522826707B0099340B /* getAnimeByMalJikan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAnimeByMalJikan.swift; sourceTree = "<group>"; };
+		AA279454282670D20099340B /* getAnimeByMalJikanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAnimeByMalJikanViewModel.swift; sourceTree = "<group>"; };
+		AA279457282675530099340B /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		AA52CEA827F9A76F00A56A02 /* ReverseProxyServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseProxyServer.swift; sourceTree = "<group>"; };
+		AA52CEAE27F9C09B00A56A02 /* EpisodesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesList.swift; sourceTree = "<group>"; };
+		AA52CEB527F9C10C00A56A02 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		AA52CEB727F9C1A600A56A02 /* EpisodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeService.swift; sourceTree = "<group>"; };
+		AA52CEB927F9C32B00A56A02 /* EpisodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewModel.swift; sourceTree = "<group>"; };
+		AA52CEC62801E89500A56A02 /* VideoPlayerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerVM.swift; sourceTree = "<group>"; };
+		AA52CEC82801E8BF00A56A02 /* VideoPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerModel.swift; sourceTree = "<group>"; };
+		AAAC8D42281474D0000B10F3 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		AAAC8D4428159759000B10F3 /* getAnimeByMalId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAnimeByMalId.swift; sourceTree = "<group>"; };
+		AAAC8D46281597F2000B10F3 /* getAnimeByMalIdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAnimeByMalIdModel.swift; sourceTree = "<group>"; };
+		AAAC8D4B2815B801000B10F3 /* AnimeDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailScreen.swift; sourceTree = "<group>"; };
+		AAAC8D512816B2E5000B10F3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		AAAC8D542816F9B3000B10F3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		AAAC8D5F281EBB26000B10F3 /* getAnimeById.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAnimeById.swift; sourceTree = "<group>"; };
+		AAAC8D61281EC025000B10F3 /* getAnimeByIdViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAnimeByIdViewModel.swift; sourceTree = "<group>"; };
+		AAAC8D63282318C1000B10F3 /* RelatedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedCard.swift; sourceTree = "<group>"; };
+		AAC570EF2813F500009DBEFA /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		AD7D6A3E46951DAB835FAB18 /* Pods-AnimeWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeWatch.debug.xcconfig"; path = "Target Support Files/Pods-AnimeWatch/Pods-AnimeWatch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,18 +145,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD546B7374F6B4D5DF19595B /* libPods-AnimeWatch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70C2B5DD2EC863AF2668DDD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28EFC681E8DFF7DFCD4C743A /* libPods-AnimeWatch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA01EDCB27DFDE4F009E54F0 = {
 			isa = PBXGroup;
 			children = (
 				AA01EDE727DFE644009E54F0 /* Fonts */,
 				AA01EDD627DFDE4F009E54F0 /* AnimeWatch */,
 				AA01EDD527DFDE4F009E54F0 /* Products */,
+				FAFA44F5C6EF663BA8414F02 /* Pods */,
+				70C2B5DD2EC863AF2668DDD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +182,7 @@
 		AA01EDD627DFDE4F009E54F0 /* AnimeWatch */ = {
 			isa = PBXGroup;
 			children = (
+				AA52CEA727F9A75200A56A02 /* ReverseProxyServer */,
 				AA01EE2D27E3F48E009E54F0 /* AsyncImage */,
 				AA01EE1F27E3CE21009E54F0 /* Features */,
 				AA01EE1627E1278D009E54F0 /* Costants */,
@@ -143,7 +201,7 @@
 				AA01EDEA27DFE661009E54F0 /* Montserrat-VariableFont_wght.ttf */,
 				AA01EDF627DFE67D009E54F0 /* Montserrat-Black.ttf */,
 				AA01EDF527DFE67D009E54F0 /* Montserrat-BlackItalic.ttf */,
-				AA01EDF127DFE67D009E54F0 /* Montserrat-Bold.ttf */,
+				AAAC8D512816B2E5000B10F3 /* Montserrat-Bold.ttf */,
 				AA01EDF027DFE67D009E54F0 /* Montserrat-BoldItalic.ttf */,
 				AA01EDF927DFE67E009E54F0 /* Montserrat-ExtraBold.ttf */,
 				AA01EDFF27DFE67E009E54F0 /* Montserrat-ExtraBoldItalic.ttf */,
@@ -164,15 +222,6 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		AA01EE1327DFEC5F009E54F0 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				AA01EE4A27E5F319009E54F0 /* PopularCard.swift */,
-				AA01EE4827E5F2E3009E54F0 /* DiscoverCard.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		AA01EE1627E1278D009E54F0 /* Costants */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,27 +234,14 @@
 		AA01EE1F27E3CE21009E54F0 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				AA279456282675420099340B /* YoutubeVideo */,
+				AAAC8D532816F9A3000B10F3 /* Pages */,
+				AA27944E28265B040099340B /* Models */,
+				AA52CEAD27F9C08800A56A02 /* EpisodeLists */,
 				AA01EE3827E5BDBB009E54F0 /* HorizontalScroll */,
+				AA52CEAA27F9B03C00A56A02 /* VideoPlayer */,
 			);
 			path = Features;
-			sourceTree = "<group>";
-		};
-		AA01EE2127E3CE6D009E54F0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				AA01EE4427E5D9D7009E54F0 /* popularAnime.swift */,
-				AA01EE4627E5D9F9009E54F0 /* discoverAnime.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		AA01EE2427E3D059009E54F0 /* Screen */ = {
-			isa = PBXGroup;
-			children = (
-				AA01EE2527E3D07F009E54F0 /* PopularAnimeScreen.swift */,
-				AA01EE4C27E5FB82009E54F0 /* DiscoverScreen.swift */,
-			);
-			path = Screen;
 			sourceTree = "<group>";
 		};
 		AA01EE2727E3D514009E54F0 /* Service */ = {
@@ -213,6 +249,9 @@
 			children = (
 				AA01EE2827E3D52D009E54F0 /* popularAnimeService.swift */,
 				AA01EE4027E5D793009E54F0 /* discoverAnimeService.swift */,
+				AAAC8D4428159759000B10F3 /* getAnimeByMalId.swift */,
+				AAAC8D5F281EBB26000B10F3 /* getAnimeById.swift */,
+				AA2794522826707B0099340B /* getAnimeByMalJikan.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -222,6 +261,9 @@
 			children = (
 				AA01EE2B27E3D79A009E54F0 /* popularAnimeViewModel.swift */,
 				AA01EE4227E5D8DC009E54F0 /* discoverViewModel.swift */,
+				AAAC8D46281597F2000B10F3 /* getAnimeByMalIdModel.swift */,
+				AAAC8D61281EC025000B10F3 /* getAnimeByIdViewModel.swift */,
+				AA279454282670D20099340B /* getAnimeByMalJikanViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -240,13 +282,146 @@
 		AA01EE3827E5BDBB009E54F0 /* HorizontalScroll */ = {
 			isa = PBXGroup;
 			children = (
-				AA01EE2427E3D059009E54F0 /* Screen */,
 				AA01EE2A27E3D772009E54F0 /* ViewModel */,
-				AA01EE1327DFEC5F009E54F0 /* Views */,
-				AA01EE2127E3CE6D009E54F0 /* Model */,
 				AA01EE2727E3D514009E54F0 /* Service */,
 			);
 			path = HorizontalScroll;
+			sourceTree = "<group>";
+		};
+		AA27944E28265B040099340B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA27944A2824724C0099340B /* animeByMalId.swift */,
+				AA01EE4427E5D9D7009E54F0 /* popularAnime.swift */,
+				AA01EE4627E5D9F9009E54F0 /* discoverAnime.swift */,
+				AA27944C282472570099340B /* animeById.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA27944F28265B8A0099340B /* Popular Anime */ = {
+			isa = PBXGroup;
+			children = (
+				AA01EE2527E3D07F009E54F0 /* PopularAnimeScreen.swift */,
+				AA01EE4A27E5F319009E54F0 /* PopularCard.swift */,
+			);
+			path = "Popular Anime";
+			sourceTree = "<group>";
+		};
+		AA27945028265B9A0099340B /* Discover Anime */ = {
+			isa = PBXGroup;
+			children = (
+				AA01EE4827E5F2E3009E54F0 /* DiscoverCard.swift */,
+				AA01EE4C27E5FB82009E54F0 /* DiscoverScreen.swift */,
+			);
+			path = "Discover Anime";
+			sourceTree = "<group>";
+		};
+		AA27945128265BB40099340B /* Anime Detial */ = {
+			isa = PBXGroup;
+			children = (
+				AAAC8D63282318C1000B10F3 /* RelatedCard.swift */,
+				AAAC8D4B2815B801000B10F3 /* AnimeDetailScreen.swift */,
+			);
+			path = "Anime Detial";
+			sourceTree = "<group>";
+		};
+		AA279456282675420099340B /* YoutubeVideo */ = {
+			isa = PBXGroup;
+			children = (
+				AA279457282675530099340B /* VideoView.swift */,
+			);
+			path = YoutubeVideo;
+			sourceTree = "<group>";
+		};
+		AA52CEA727F9A75200A56A02 /* ReverseProxyServer */ = {
+			isa = PBXGroup;
+			children = (
+				AA52CEA827F9A76F00A56A02 /* ReverseProxyServer.swift */,
+			);
+			path = ReverseProxyServer;
+			sourceTree = "<group>";
+		};
+		AA52CEAA27F9B03C00A56A02 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				AA52CEC62801E89500A56A02 /* VideoPlayerVM.swift */,
+				AA52CEC82801E8BF00A56A02 /* VideoPlayerModel.swift */,
+				AAC570EF2813F500009DBEFA /* VideoPlayer.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		AA52CEAD27F9C08800A56A02 /* EpisodeLists */ = {
+			isa = PBXGroup;
+			children = (
+				AA52CEB227F9C0E100A56A02 /* Views */,
+				AA52CEB427F9C0F000A56A02 /* Screen */,
+				AA52CEB327F9C0E800A56A02 /* ViewModel */,
+				AA52CEB127F9C0DA00A56A02 /* Service */,
+				AA52CEB027F9C0D000A56A02 /* Model */,
+			);
+			path = EpisodeLists;
+			sourceTree = "<group>";
+		};
+		AA52CEB027F9C0D000A56A02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA52CEB527F9C10C00A56A02 /* Episode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA52CEB127F9C0DA00A56A02 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AA52CEB727F9C1A600A56A02 /* EpisodeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AA52CEB227F9C0E100A56A02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA52CEB327F9C0E800A56A02 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA52CEB927F9C32B00A56A02 /* EpisodeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA52CEB427F9C0F000A56A02 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AA52CEAE27F9C09B00A56A02 /* EpisodesList.swift */,
+				AAAC8D42281474D0000B10F3 /* Video.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		AAAC8D532816F9A3000B10F3 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				AA27945128265BB40099340B /* Anime Detial */,
+				AA27945028265B9A0099340B /* Discover Anime */,
+				AA27944F28265B8A0099340B /* Popular Anime */,
+				AAAC8D542816F9B3000B10F3 /* HomeScreen.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		FAFA44F5C6EF663BA8414F02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D6A3E46951DAB835FAB18 /* Pods-AnimeWatch.debug.xcconfig */,
+				5A74134A56D42C9BCB6E2667 /* Pods-AnimeWatch.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +431,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA01EDE227DFDE51009E54F0 /* Build configuration list for PBXNativeTarget "AnimeWatch" */;
 			buildPhases = (
+				B9CEBD5857CA7233AE709CEB /* [CP] Check Pods Manifest.lock */,
 				AA01EDD027DFDE4F009E54F0 /* Sources */,
 				AA01EDD127DFDE4F009E54F0 /* Frameworks */,
 				AA01EDD227DFDE4F009E54F0 /* Resources */,
@@ -314,9 +490,9 @@
 				AA01EE0827DFE67E009E54F0 /* Montserrat-Black.ttf in Resources */,
 				AA01EE0B27DFE67E009E54F0 /* Montserrat-ExtraBold.ttf in Resources */,
 				AA01EE0427DFE67E009E54F0 /* Montserrat-Light.ttf in Resources */,
+				AAAC8D522816B2E5000B10F3 /* Montserrat-Bold.ttf in Resources */,
 				AA01EDDC27DFDE51009E54F0 /* Assets.xcassets in Resources */,
 				AA01EE1027DFE67E009E54F0 /* Montserrat-ThinItalic.ttf in Resources */,
-				AA01EE0327DFE67E009E54F0 /* Montserrat-Bold.ttf in Resources */,
 				AA01EE0C27DFE67E009E54F0 /* Montserrat-MediumItalic.ttf in Resources */,
 				AA01EE0F27DFE67E009E54F0 /* Montserrat-Thin.ttf in Resources */,
 				AA01EE0E27DFE67E009E54F0 /* Montserrat-SemiBold.ttf in Resources */,
@@ -334,6 +510,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B9CEBD5857CA7233AE709CEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimeWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA01EDD027DFDE4F009E54F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -341,21 +542,42 @@
 			files = (
 				AA01EE2F27E3F4B9009E54F0 /* AsyncImage.swift in Sources */,
 				AA01EE4927E5F2E3009E54F0 /* DiscoverCard.swift in Sources */,
+				AA279455282670D20099340B /* getAnimeByMalJikanViewModel.swift in Sources */,
 				AA01EE3727E3F4E2009E54F0 /* EnvironmentValues+ImageCache.swift in Sources */,
 				AA01EE2C27E3D79A009E54F0 /* popularAnimeViewModel.swift in Sources */,
+				AAAC8D43281474D0000B10F3 /* Video.swift in Sources */,
 				AA01EE1827E127BC009E54F0 /* Fonts.swift in Sources */,
+				AA27944B2824724C0099340B /* animeByMalId.swift in Sources */,
+				AA2794532826707B0099340B /* getAnimeByMalJikan.swift in Sources */,
+				AA52CEB627F9C10C00A56A02 /* Episode.swift in Sources */,
+				AAAC8D64282318C1000B10F3 /* RelatedCard.swift in Sources */,
 				AA01EE2927E3D52D009E54F0 /* popularAnimeService.swift in Sources */,
+				AA279458282675530099340B /* VideoView.swift in Sources */,
 				AA01EE3327E3F4C6009E54F0 /* ImageLoader.swift in Sources */,
 				AA01EE4527E5D9D7009E54F0 /* popularAnime.swift in Sources */,
+				AA27944D282472570099340B /* animeById.swift in Sources */,
+				AA52CEC72801E89500A56A02 /* VideoPlayerVM.swift in Sources */,
 				AA01EE3427E3F4C6009E54F0 /* ImageCache.swift in Sources */,
 				AA01EDDA27DFDE4F009E54F0 /* ContentView.swift in Sources */,
+				AA52CEA927F9A76F00A56A02 /* ReverseProxyServer.swift in Sources */,
+				AA52CEAF27F9C09B00A56A02 /* EpisodesList.swift in Sources */,
 				AA01EE4127E5D793009E54F0 /* discoverAnimeService.swift in Sources */,
+				AAAC8D4528159759000B10F3 /* getAnimeByMalId.swift in Sources */,
 				AA01EE4D27E5FB82009E54F0 /* DiscoverScreen.swift in Sources */,
+				AAC570F02813F500009DBEFA /* VideoPlayer.swift in Sources */,
+				AAAC8D552816F9B3000B10F3 /* HomeScreen.swift in Sources */,
+				AA52CEC92801E8BF00A56A02 /* VideoPlayerModel.swift in Sources */,
 				AA01EE4B27E5F319009E54F0 /* PopularCard.swift in Sources */,
 				AA01EE1E27E3CD1D009E54F0 /* APIConstants.swift in Sources */,
 				AA01EE4727E5D9F9009E54F0 /* discoverAnime.swift in Sources */,
 				AA01EE4327E5D8DC009E54F0 /* discoverViewModel.swift in Sources */,
+				AAAC8D62281EC025000B10F3 /* getAnimeByIdViewModel.swift in Sources */,
+				AAAC8D4C2815B801000B10F3 /* AnimeDetailScreen.swift in Sources */,
+				AA52CEB827F9C1A600A56A02 /* EpisodeService.swift in Sources */,
 				AA01EDD827DFDE4F009E54F0 /* AnimeWatchApp.swift in Sources */,
+				AAAC8D60281EBB26000B10F3 /* getAnimeById.swift in Sources */,
+				AA52CEBA27F9C32B00A56A02 /* EpisodeViewModel.swift in Sources */,
+				AAAC8D47281597F2000B10F3 /* getAnimeByMalIdModel.swift in Sources */,
 				AA01EE2627E3D07F009E54F0 /* PopularAnimeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +636,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -469,6 +692,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -481,6 +705,7 @@
 		};
 		AA01EDE327DFDE51009E54F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7D6A3E46951DAB835FAB18 /* Pods-AnimeWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -511,6 +736,7 @@
 		};
 		AA01EDE427DFDE51009E54F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A74134A56D42C9BCB6E2667 /* Pods-AnimeWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -6,27 +6,27 @@
 //
 
 import Foundation
+import SwiftUI
 
 //ObservableObject permette al protocollo di restare in ascolto per cambiamenti
-protocol DiscoverViewModel: ObservableObject {
-    func getAnimeList() async
+protocol EpisodeViewModel: ObservableObject {
+    func getEpisodeList() async
 }
 
 @MainActor
-final class DiscoverViewModelImpl: AnimeListViewModel {
+final class EpisodeViewModelImpl: EpisodeViewModel {
     //La variabile Published dice ad ogni view che la contiene e che la sta ascoltando (tramite StateObject) che il valore al suo interno è cambiato e quindi dovrebbe ricostruire le View
-    @Published private(set) var discoverAnimeLists: [AnimeDiscover] = []
-    //[AnimeDiscover] = []
+    @Published private(set) var episodeList: [EpisodeDetail] = []
     
-    private let service: aniApiService
+    private let service: EpisodeService
     
-    init(service: aniApiService){
+    init(service: EpisodeService){
         self.service = service
     }
     
-    func getAnimeList() async {
+    func getEpisodeList() async {
         do {
-            discoverAnimeLists.self =  try await service.fetchData().data
+            episodeList.self =  try await service.fetchData().data.documents
         } catch {
             print(error)
         }

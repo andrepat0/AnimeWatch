@@ -15,11 +15,12 @@ struct PopularAnimeScreen: View {
         VStack(alignment: .leading){
             
             Text("Popular")
+                .foregroundColor(Color("white"))
                 .padding(.leading,10)
                 .font(.custom(FontsManager.Montserrat.semiBold, size: 24))
             ScrollView(.horizontal, showsIndicators: false){
                 LazyHStack{
-                    ForEach(vm.animeLists,id: \.title){ anime in
+                    ForEach(vm.animeLists,id: \.mal_id){ anime in
                         PopularCardView(item:anime).shadow(color: Color.black.opacity(0.2),radius:5,x: 5,y: 5)
                     }
                 }

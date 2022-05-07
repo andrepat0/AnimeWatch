@@ -25,7 +25,7 @@ final class AnimeListViewModelImpl: AnimeListViewModel {
     
     func getAnimeList() async {
         do {
-            animeLists.self =  try await service.fetchData().data
+            animeLists.self =  [try await service.fetchData().data]
         } catch {
             print(error)
         }

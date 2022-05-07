@@ -7,19 +7,23 @@
 
 import Foundation
 
-struct discoverAnime: Decodable {
-    let data: [AnimeDiscover]
+struct animeByMalId: Decodable {
+    let data: Doc?;
 }
 
-struct AnimeDiscover: Decodable {
-    let titles: Titles;
+struct Doc: Decodable {
+    let documents: [AnimeDetailsMalId];
+}
+
+struct AnimeDetailsMalId: Decodable {
+    let titles: TitlesValue;
     let episodes_count: Int;
     let score: Int;
     let cover_image: String;
     let id: Int;
 }
 
-struct Titles: Decodable{
+struct TitlesValue: Decodable{
     let en: String?
     let rj: String?;
 }

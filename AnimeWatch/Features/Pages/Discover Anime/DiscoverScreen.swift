@@ -15,8 +15,10 @@ struct DiscoverScreen: View {
         
         VStack(alignment: .leading) {
             Text("Discover")
+                .foregroundColor(Color("white"))
                 .padding(.leading,10)
                 .font(.custom(FontsManager.Montserrat.semiBold, size: 24))
+                 
             ScrollView(.horizontal, showsIndicators: false){
                 LazyHStack{
                     ForEach(vm.discoverAnimeLists,id: \.id){ anime in
@@ -26,7 +28,7 @@ struct DiscoverScreen: View {
                 .padding(.leading,20)
             }.frame( height: 300)
                 .task{
-                    await vm.getAnimeList()
+                     await vm.getAnimeList()
             }
         }
     }

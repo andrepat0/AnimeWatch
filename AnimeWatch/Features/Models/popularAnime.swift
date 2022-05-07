@@ -8,14 +8,20 @@
 import Foundation
 
 struct popularAnime: Decodable {
-    let data: [Anime]
+    let data: Anime
 }
 
 struct Anime: Decodable {
     let title: String;
-    let episodes: Int;
+    //let episodes: Int;
     let score: Double;
     let images: Images;
+    let mal_id: Int?;
+    let trailer: Trailer?;
+}
+
+struct Trailer: Decodable{
+    let youtube_id: String?;
 }
 
 struct Images: Decodable{
