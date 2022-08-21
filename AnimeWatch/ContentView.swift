@@ -15,9 +15,14 @@ import AVKit
 
 struct ContentView: View {
     
-    init(){
-        //UITabBar.appearance().barTintColor = .systemBackground
-    }
+    init() {
+
+              UINavigationBar.appearance().setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+              UINavigationBar.appearance().shadowImage = UIImage()
+              UINavigationBar.appearance().isTranslucent = true
+              UINavigationBar.appearance().tintColor = .clear
+              UINavigationBar.appearance().backgroundColor = .clear
+         }
     
     var body: some View {
             TabView{
@@ -25,12 +30,14 @@ struct ContentView: View {
                     .tabItem {
                     Image(systemName: "house")
                     Text("Home")
-                }
+                    }
                 
-                Text("Search").tabItem {
+                SearchScreen().tabItem {
+                    Spacer()
                     Image(systemName: "magnifyingglass.circle")
                     Text("Search")
                 }
+                
             }.accentColor(Color("darkOrange"))
         }
 }

@@ -8,8 +8,8 @@
 import Foundation
 
 struct APIConstants {
-    struct Jikan {
-        static let baseUrl = "https://api.jikan.moe/v4/"
+    struct Kitsu {
+        static let baseUrl = "https://kitsu.io/api/edge/"
     }
     struct AniApi{
         static let baseUrl = "https://api.aniapi.com/v1/"

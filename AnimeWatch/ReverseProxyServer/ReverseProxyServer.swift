@@ -12,17 +12,16 @@ import GCDWebServer
 
 struct ReverseProxyServer {
     
-    var server: HLSCachingReverseProxyServer
-    
     //Inizializza il reverse proxy server
     let WebServer = GCDWebServer()
     let Cache = PINCache.shared
     let UrlSession = URLSession.shared
     let Referer: String
+    var server: HLSCachingReverseProxyServer
     
     init(referer: String){
         self.Referer = referer
-        self.server = HLSCachingReverseProxyServer(webServer: WebServer, urlSession: UrlSession, cache: Cache, referer: Referer)
+        self.server = HLSCachingReverseProxyServer(webServer: WebServer, urlSession: UrlSession, cache: Cache, Referer: referer)
     }
     
     func startServer() -> HLSCachingReverseProxyServer{
