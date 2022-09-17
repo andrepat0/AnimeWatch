@@ -18,7 +18,7 @@ struct AnimeRecommendationsScreen: View {
             
             Text("Reccomendations")
                 .foregroundColor(Color("white"))
-                .font(.custom(FontsManager.Montserrat.semiBold, size: 22))
+                .font(.custom(FontsManager.Montserrat.bold, size: 22))
                 .fontWeight(.medium)
             ScrollView(.vertical, showsIndicators: false){
                 LazyVStack(alignment: .leading){

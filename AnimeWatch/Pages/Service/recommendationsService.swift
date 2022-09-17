@@ -15,7 +15,7 @@ final class RecommendationsServiceImpl: RecommendationsService {
     
     func fetchData() async throws -> popularAnime {
         let urlSession = URLSession.shared
-        let (data, _) = try await urlSession.data(from: URL(string: APIConstants.Kitsu.baseUrl+"anime?sort=-userCount")!)
+        let (data, _) = try await urlSession.data(from: URL(string: APIConstants.Kitsu.baseUrl+"anime?sort=-userCount&page[limit]=10")!)
         let apiData =  try JSONDecoder().decode(popularAnime.self, from: data)
         return apiData
     }

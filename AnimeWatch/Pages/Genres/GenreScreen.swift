@@ -19,7 +19,7 @@ struct GenreScreen: View {
              
                 Text("Genres")
                     .foregroundColor(Color("white"))
-                    .font(.custom(FontsManager.Montserrat.semiBold, size: 22))
+                    .font(.custom(FontsManager.Montserrat.bold, size: 22))
                     .fontWeight(.medium)
                 
                 Spacer()

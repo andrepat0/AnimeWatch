@@ -16,7 +16,7 @@ struct PopularAnimeScreen: View {
             
             Text("Popular")
                 .foregroundColor(Color("white"))
-                .font(.custom(FontsManager.Montserrat.semiBold, size: 22))
+                .font(.custom(FontsManager.Montserrat.bold, size: 22))
                 .fontWeight(.medium)
             
             ScrollView(.horizontal, showsIndicators: false){

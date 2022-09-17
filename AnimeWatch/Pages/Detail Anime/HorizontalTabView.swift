@@ -27,25 +27,16 @@ extension View {
 struct HorizontalTabView: View {
     
     /* Variabili di stato */
-    @State var showAnimeDetail: Bool = false
     @State private var selection: String = "Trama"
     @State private var tabSelection: TabBarItem = TabBarItem(title: "Trama")
     
     var data: Attributes
-    var animeGenres: [GenreAnimeDetail]
-    var animeCharacters: [CharactersDetail]
-    var animeReactions: [ReactionsAnimeDetail]
-    var userReactions: [ReactionsIncluded]
     var averageRating: Double
     var bounds = UIScreen.main.bounds
     
-    init(data: Attributes, anime_genres: [GenreAnimeDetail], anime_characters: [CharactersDetail], anime_reactions: [ReactionsAnimeDetail], reactions_user: [ReactionsIncluded]){
+    init(data: Attributes){
         self.data = data
         self.averageRating = Double(self.data.attributes.averageRating ?? "0") ?? 0.0
-        self.animeGenres = anime_genres
-        self.animeCharacters = anime_characters
-        self.animeReactions = anime_reactions
-        self.userReactions = reactions_user
     }
     
     var body: some View {
@@ -61,25 +52,25 @@ struct HorizontalTabView: View {
                     
                     /*  Tab Trama */
                     CustomTabBarContainerView(selection: $tabSelection){
-                        if showAnimeDetail {
-                            Trama(data: self.data,animeGenres: self.animeGenres, animeCharacters: self.animeCharacters, animeReactions: self.animeReactions, averageRating: self.averageRating)
-                                .transition(.move(edge: .bottom))
+                        
+                        Trama(data: self.data, averageRating: averageRating, Selection: tabSelection)
                                 .tabBarItem(tab: TabBarItem(title: "Trama"), selection: $tabSelection)
-                        }
-                        Color.red
+                        
+                        Episodes(data: self.data, Selection: tabSelection)
                             .tabBarItem(tab: TabBarItem(title: "Episodes"), selection: $tabSelection)
-                        Color.green
+                           // .transition(.move(edge: .bottom))
+                        
+                        Relateds(data: self.data, Selection: tabSelection)
                             .tabBarItem(tab: TabBarItem(title: "Related"), selection: $tabSelection)
                     }
                 }
             }
-        }
-        .onAppear(){
-            withAnimation(.easeInOut(duration: 0.5)) {
-                self.showAnimeDetail = true
-            }
+           /* .onAppear(){
+                withAnimation(.easeInOut(duration: 0.5)) {
+                    self.showAnimeDetail = true
+                }
+        }*/
         }
         .ignoresSafeArea()
-        
     }
 }

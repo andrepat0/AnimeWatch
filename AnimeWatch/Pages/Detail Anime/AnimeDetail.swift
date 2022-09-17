@@ -31,20 +31,16 @@ struct AnimeDetail: View {
        }
     
     var data: Attributes?
-    @StateObject private var vmAnimeAdditionalData = AdditionalAnimeDataViewModelImpl()
     
     init(data: Attributes?){
         self.data = data
     }
     
     var body: some View {
-        HorizontalTabView(data: data!, anime_genres: vmAnimeAdditionalData.genreList, anime_characters: vmAnimeAdditionalData.charactersList, anime_reactions: vmAnimeAdditionalData.reactionsList, reactions_user: vmAnimeAdditionalData.userReactions)
+        HorizontalTabView(data: data!)
             .navigationBarTitle("")
             .navigationBarBackButtonHidden(true)
             .navigationBarItems(trailing: btnBack)
-            .task(){
-              await vmAnimeAdditionalData.getAnimeList(anime_id: data?.id ?? "0")
-            }
     }
 }
 

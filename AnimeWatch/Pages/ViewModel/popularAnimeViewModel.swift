@@ -42,6 +42,7 @@ struct popularAnime: Decodable {
 struct Attributes: Decodable {
     let attributes: Anime;
     let id: String;
+    let type: String;
     let relationships: Characters;
 }
 
@@ -64,12 +65,11 @@ struct Anime: Decodable{
     let synopsis: String?;
     let averageRating: String?;
     let posterImage: PosterImages;
-    let userCount: Int?;
     let episodeCount: Int?;
     let youtubeVideoId: String?;
     let startDate: String?;
-    let status: String?;
-    let ageRatingGuide: String?;
+    let subtype: String?;
+    
 }
 
 struct Titles: Decodable{

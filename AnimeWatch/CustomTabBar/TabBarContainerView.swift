@@ -25,6 +25,7 @@ struct CustomTabBarContainerView<Content:View>: View {
             ZStack{
                 content
                     .offset(y:-63)
+                    .transition(.move(edge: .bottom))
             }
         }
         .onPreferenceChange(TabBarItemPreferenceKey.self) { value in

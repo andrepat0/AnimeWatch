@@ -63,10 +63,9 @@ struct PopularCardView: View {
                 Text(anime.attributes.titles.en ?? anime.attributes.titles.en_jp ?? "").font(.custom(FontsManager.Montserrat.semiBold, size: 15))
                     .foregroundColor(Color("white"))
                     .padding(.leading, 7.0)
-                    .frame(width: 143,height: 40, alignment: .top)
-                    .lineLimit(2)
+                    .frame(width: 135, alignment: .leading)
+                    .lineLimit(1)
                 }
-           
         }
   }
 }
